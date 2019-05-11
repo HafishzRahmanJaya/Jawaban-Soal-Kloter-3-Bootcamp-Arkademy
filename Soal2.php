@@ -8,7 +8,7 @@
  	        }
        }
   function ValidasiEmail($email){
- 	    $EmailValid = preg_match("/^[a-z || A-Z || 0-9 || @.]*$/", $email);
+ 	    $EmailValid = preg_match("/^[a-z || A-Z || 0-9 || .]*$/", $email);
  	        if ($EmailValid && strlen($email)>=4) {
  		            echo "true <br/>";
  	        }else{
